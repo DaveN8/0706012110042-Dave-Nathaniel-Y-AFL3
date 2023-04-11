@@ -13,7 +13,9 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Halo Dek!")
+            Text("Turtle Rock")
+                .font(.title)
+                
         }
         .padding()
     }
