@@ -13,7 +13,7 @@ struct LandmarkList: View {
             List (landmarks) {landmark in
                 // untuk menyambungkan list dengan tampilan detail
                 NavigationLink{
-                    LandmarkDetail()
+                    LandmarkDetail(landmark: landmark)
                 }label: {
                     LandmarkRow(landmark: landmark)
                 }
