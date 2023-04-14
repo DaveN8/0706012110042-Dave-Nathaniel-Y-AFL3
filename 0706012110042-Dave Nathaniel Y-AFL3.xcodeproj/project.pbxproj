@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0409D87E29E8E20B003705FD /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0409D87D29E8E20B003705FD /* landmarkData.json */; };
+		0409D88029E8E23E003705FD /* Landamark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409D87F29E8E23E003705FD /* Landamark.swift */; };
+		0409D88229E8E30D003705FD /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409D88129E8E30D003705FD /* ModelData.swift */; };
 		04C0CE4029E4ECEB00A2262C /* _706012110042_Dave_Nathaniel_Y_AFL3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0CE3F29E4ECEB00A2262C /* _706012110042_Dave_Nathaniel_Y_AFL3App.swift */; };
 		04C0CE4229E4ECEB00A2262C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0CE4129E4ECEB00A2262C /* ContentView.swift */; };
 		04C0CE4429E4ECEE00A2262C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C0CE4329E4ECEE00A2262C /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0409D87D29E8E20B003705FD /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		0409D87F29E8E23E003705FD /* Landamark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landamark.swift; sourceTree = "<group>"; };
+		0409D88129E8E30D003705FD /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		04C0CE3C29E4ECEB00A2262C /* 0706012110042-Dave Nathaniel Y-AFL3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110042-Dave Nathaniel Y-AFL3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C0CE3F29E4ECEB00A2262C /* _706012110042_Dave_Nathaniel_Y_AFL3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110042_Dave_Nathaniel_Y_AFL3App.swift; sourceTree = "<group>"; };
 		04C0CE4129E4ECEB00A2262C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +81,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0409D88429E8E398003705FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04C0CE4129E4ECEB00A2262C /* ContentView.swift */,
+				04C0CE6929E4F75000A2262C /* CircleImage.swift */,
+				04C0CE6B29E4F88400A2262C /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0409D88629E8E3D4003705FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0409D87F29E8E23E003705FD /* Landamark.swift */,
+				0409D88129E8E30D003705FD /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0409D88729E8E3E6003705FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0409D87D29E8E20B003705FD /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		04C0CE3329E4ECEB00A2262C = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				04C0CE3F29E4ECEB00A2262C /* _706012110042_Dave_Nathaniel_Y_AFL3App.swift */,
-				04C0CE4129E4ECEB00A2262C /* ContentView.swift */,
-				04C0CE6929E4F75000A2262C /* CircleImage.swift */,
-				04C0CE6B29E4F88400A2262C /* MapView.swift */,
+				0409D88429E8E398003705FD /* Views */,
+				0409D88629E8E3D4003705FD /* Model */,
+				0409D88729E8E3E6003705FD /* Resources */,
 				04C0CE4329E4ECEE00A2262C /* Assets.xcassets */,
 				04C0CE4529E4ECEE00A2262C /* Preview Content */,
 			);
@@ -239,6 +272,7 @@
 			files = (
 				04C0CE4729E4ECEE00A2262C /* Preview Assets.xcassets in Resources */,
 				04C0CE4429E4ECEE00A2262C /* Assets.xcassets in Resources */,
+				0409D87E29E8E20B003705FD /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +301,8 @@
 				04C0CE6C29E4F88400A2262C /* MapView.swift in Sources */,
 				04C0CE4029E4ECEB00A2262C /* _706012110042_Dave_Nathaniel_Y_AFL3App.swift in Sources */,
 				04C0CE6A29E4F75000A2262C /* CircleImage.swift in Sources */,
+				0409D88029E8E23E003705FD /* Landamark.swift in Sources */,
+				0409D88229E8E30D003705FD /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
