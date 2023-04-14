@@ -9,10 +9,12 @@ import SwiftUI
 
 struct LandmarkDetail: View {
     var landmark: Landmark
+    
+    //tampilan template detail setiap landmark
     var body: some View {
         ScrollView {
             MapView(coordinate: landmark.locationCoordinate)
-                .ignoresSafeArea(edges: .top)
+                .ignoresSafeArea(edges: .top) // untuk menhapus space kosong di ujung atas
                 .frame(height: 300)
             
             CircleImage(image: landmark.image)

@@ -11,6 +11,7 @@ struct CircleImage: View {
     var image: Image
     
     var body: some View {
+        // untuk templat desain pada gambar, secara berurutan, membuat gambar bulat, memberi border, dan memberi shadow
         image
             .clipShape(Circle())
             .overlay{
@@ -23,5 +24,6 @@ struct CircleImage: View {
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
         CircleImage(image: Image("turtlerock"))
+        //untuk contoh gambar atau preview tampilan gambar pada tampilan akhir
     }
 }

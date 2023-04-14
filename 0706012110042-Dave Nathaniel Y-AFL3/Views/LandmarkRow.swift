@@ -10,9 +10,10 @@ import SwiftUI
 struct LandmarkRow: View {
     var landmark: Landmark
     var body: some View {
+        //membuat tampilan horizontal, untuk template list landmark yang akan muncul diakhir
         HStack{
             landmark.image
-                .resizable()
+                .resizable() // berarti ukuran gambar mengikuti space yang tersedia
                 .frame(width: 50, height: 50)
             Text(landmark.name)
             
@@ -26,6 +27,7 @@ struct LandmarkRow_Previews: PreviewProvider {
         Group{
             LandmarkRow(landmark: landmarks[0])
             LandmarkRow(landmark: landmarks[1])
+            //menginclude atau memasukkan 2 template list dalam satu grup, atau dalam kata lain mengrup setiap list
         }
         .previewLayout(.fixed(width: 300, height: 70))
     }
