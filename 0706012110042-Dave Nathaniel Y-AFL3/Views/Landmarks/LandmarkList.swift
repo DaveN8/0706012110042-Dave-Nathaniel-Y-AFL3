@@ -50,6 +50,8 @@ struct LandmarkList: View {
             .navigationTitle("Landmarks")
         }
         
+//        NavigationView(content: <#T##() -> View#>)
+        
     }
 }
 
