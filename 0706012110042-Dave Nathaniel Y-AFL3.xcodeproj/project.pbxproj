@@ -35,6 +35,8 @@
 		04C0CE5D29E4ECEE00A2262C /* _706012110042_Dave_Nathaniel_Y_AFL3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0CE5C29E4ECEE00A2262C /* _706012110042_Dave_Nathaniel_Y_AFL3UITestsLaunchTests.swift */; };
 		04C0CE6A29E4F75000A2262C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0CE6929E4F75000A2262C /* CircleImage.swift */; };
 		04C0CE6C29E4F88400A2262C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0CE6B29E4F88400A2262C /* MapView.swift */; };
+		04F8D50C29F16304008F2A28 /* CategooryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8D50B29F16304008F2A28 /* CategooryRow.swift */; };
+		04F8D50E29F16619008F2A28 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8D50D29F16619008F2A28 /* CategoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,8 @@
 		04C0CE5C29E4ECEE00A2262C /* _706012110042_Dave_Nathaniel_Y_AFL3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110042_Dave_Nathaniel_Y_AFL3UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04C0CE6929E4F75000A2262C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		04C0CE6B29E4F88400A2262C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		04F8D50B29F16304008F2A28 /* CategooryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategooryRow.swift; sourceTree = "<group>"; };
+		04F8D50D29F16619008F2A28 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				046FF87929EE31A40066A699 /* CategoryHome.swift */,
+				04F8D50B29F16304008F2A28 /* CategooryRow.swift */,
+				04F8D50D29F16619008F2A28 /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -395,7 +401,9 @@
 				04C0CE4029E4ECEB00A2262C /* _706012110042_Dave_Nathaniel_Y_AFL3App.swift in Sources */,
 				0409D89129E8FC43003705FD /* FavoriteButton.swift in Sources */,
 				0409D8AA29E903CE003705FD /* HikeDetail.swift in Sources */,
+				04F8D50E29F16619008F2A28 /* CategoryItem.swift in Sources */,
 				0409D89529E8FE7E003705FD /* HexagonParameters.swift in Sources */,
+				04F8D50C29F16304008F2A28 /* CategooryRow.swift in Sources */,
 				0409D8A229E9034E003705FD /* Hike.swift in Sources */,
 				0409D89B29E901B9003705FD /* RotatedBadgeSymbol.swift in Sources */,
 				0409D89929E9015A003705FD /* BadgeSymbol.swift in Sources */,

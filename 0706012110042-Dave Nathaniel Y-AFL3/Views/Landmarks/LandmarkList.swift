@@ -18,37 +18,37 @@ struct LandmarkList: View {
     }
     
     var body: some View {
-//        NavigationView {
-//            List {
-//                Toggle(isOn: $showFavoritesOnly){
-//                    Text("Favorites Only")
-//                }
-//                ForEach(filteredLandmarks)
-//                    {landmark in
-//                        // untuk menyambungkan list dengan tampilan detail
-//                        NavigationLink{
-//                            LandmarkDetail(landmark: landmark)
-//                        }label: {
-//                            LandmarkRow(landmark: landmark)
-//                        }
-//                        //
-//                    }
-//
-//                }
-//
-//                .navigationTitle("Landmark")
-//            }
-        
-        NavigationStack {
-            List(landmarks) { landmark in
-                NavigationLink {
-                    LandmarkDetail(landmark: landmark)
-                } label:{
-                    LandmarkRow(landmark: landmark)
+        NavigationView {
+            List {
+                Toggle(isOn: $showFavoritesOnly){
+                    Text("Favorites Only")
                 }
+                ForEach(filteredLandmarks)
+                    {landmark in
+                        // untuk menyambungkan list dengan tampilan detail
+                        NavigationLink{
+                            LandmarkDetail(landmark: landmark)
+                        }label: {
+                            LandmarkRow(landmark: landmark)
+                        }
+                        //
+                    }
+
+                }
+
+                .navigationTitle("Landmark")
             }
-            .navigationTitle("Landmarks")
-        }
+        
+//        NavigationStack {
+//            List(landmarks) { landmark in
+//                NavigationLink {
+//                    LandmarkDetail(landmark: landmark)
+//                } label:{
+//                    LandmarkRow(landmark: landmark)
+//                }
+//            }
+//            .navigationTitle("Landmarks")
+//        }
         
 //        NavigationView(content: <#T##() -> View#>)
         
