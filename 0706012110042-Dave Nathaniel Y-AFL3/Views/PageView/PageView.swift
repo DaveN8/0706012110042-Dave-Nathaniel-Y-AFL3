@@ -27,8 +27,10 @@ struct PageView<Page: View>: View {
         //
         //
         //    }
-        PageViewController(pages: pages, currentPage: $currentPage)
-        Text("Current Page: \(currentPage)") 
+        VStack {
+            PageViewController(pages: pages, currentPage: $currentPage)
+            Text("Current Page: \(currentPage)")
+        }
     }
 }
 
