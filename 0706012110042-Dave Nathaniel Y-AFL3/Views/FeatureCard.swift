@@ -17,6 +17,7 @@ struct FeatureCard: View {
             .overlay{
                 TextOverlay(landmark: landmark)
             }
+//        tampilan background latar belakang
     }
 }
 
@@ -39,6 +40,7 @@ struct TextOverlay: View {
             .padding()
         }
         .foregroundColor(.white)
+//        tmapilan kata-kata pada foreground
     }
     
 }

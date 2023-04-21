@@ -39,6 +39,7 @@
 		04F8D50E29F16619008F2A28 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8D50D29F16619008F2A28 /* CategoryItem.swift */; };
 		04F8D51129F173B0008F2A28 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8D51029F173B0008F2A28 /* PageViewController.swift */; };
 		04F8D51329F17748008F2A28 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8D51229F17748008F2A28 /* FeatureCard.swift */; };
+		04F8D51529F2706E008F2A28 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8D51429F2706E008F2A28 /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		04F8D50D29F16619008F2A28 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		04F8D51029F173B0008F2A28 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		04F8D51229F17748008F2A28 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		04F8D51429F2706E008F2A28 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				04F8D51029F173B0008F2A28 /* PageViewController.swift */,
+				04F8D51429F2706E008F2A28 /* PageView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				0409D89929E9015A003705FD /* BadgeSymbol.swift in Sources */,
 				04F8D51129F173B0008F2A28 /* PageViewController.swift in Sources */,
 				0409D88D29E8E837003705FD /* LandmarkList.swift in Sources */,
+				04F8D51529F2706E008F2A28 /* PageView.swift in Sources */,
 				0409D8AB29E903CE003705FD /* HikeView.swift in Sources */,
 				0409D88F29E8EA9D003705FD /* LandmarkDetail.swift in Sources */,
 				04F8D51329F17748008F2A28 /* FeatureCard.swift in Sources */,
