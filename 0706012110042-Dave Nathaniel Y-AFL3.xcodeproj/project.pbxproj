@@ -25,6 +25,7 @@
 		0409D8A929E903CE003705FD /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409D8A529E903CE003705FD /* HikeGraph.swift */; };
 		0409D8AA29E903CE003705FD /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409D8A629E903CE003705FD /* HikeDetail.swift */; };
 		0409D8AB29E903CE003705FD /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409D8A729E903CE003705FD /* HikeView.swift */; };
+		046B2FD029F2C3AE00B947A3 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B2FCF29F2C3AE00B947A3 /* PageControl.swift */; };
 		046FF87A29EE31A40066A699 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FF87929EE31A40066A699 /* CategoryHome.swift */; };
 		04C0CE4029E4ECEB00A2262C /* _706012110042_Dave_Nathaniel_Y_AFL3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0CE3F29E4ECEB00A2262C /* _706012110042_Dave_Nathaniel_Y_AFL3App.swift */; };
 		04C0CE4229E4ECEB00A2262C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0CE4129E4ECEB00A2262C /* ContentView.swift */; };
@@ -78,6 +79,7 @@
 		0409D8A529E903CE003705FD /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		0409D8A629E903CE003705FD /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		0409D8A729E903CE003705FD /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		046B2FCF29F2C3AE00B947A3 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		046FF87929EE31A40066A699 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		04C0CE3C29E4ECEB00A2262C /* 0706012110042-Dave Nathaniel Y-AFL3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110042-Dave Nathaniel Y-AFL3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C0CE3F29E4ECEB00A2262C /* _706012110042_Dave_Nathaniel_Y_AFL3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110042_Dave_Nathaniel_Y_AFL3App.swift; sourceTree = "<group>"; };
@@ -273,6 +275,7 @@
 			children = (
 				04F8D51029F173B0008F2A28 /* PageViewController.swift */,
 				04F8D51429F2706E008F2A28 /* PageView.swift */,
+				046B2FCF29F2C3AE00B947A3 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 			files = (
 				04C0CE4229E4ECEB00A2262C /* ContentView.swift in Sources */,
 				046FF87A29EE31A40066A699 /* CategoryHome.swift in Sources */,
+				046B2FD029F2C3AE00B947A3 /* PageControl.swift in Sources */,
 				0409D8A929E903CE003705FD /* HikeGraph.swift in Sources */,
 				0409D89D29E901F7003705FD /* Badge.swift in Sources */,
 				04C0CE6C29E4F88400A2262C /* MapView.swift in Sources */,

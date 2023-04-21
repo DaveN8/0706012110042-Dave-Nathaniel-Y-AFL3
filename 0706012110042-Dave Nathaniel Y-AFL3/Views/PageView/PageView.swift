@@ -27,10 +27,16 @@ struct PageView<Page: View>: View {
         //
         //
         //    }
-        VStack {
+        ZStack(alignment: .bottomTrailing) {
             PageViewController(pages: pages, currentPage: $currentPage)
-            Text("Current Page: \(currentPage)")
+            PageControl(numberOfPages: pages.count, currentPage: $currentPage)
+                .frame(width: CGFloat(pages.count * 18))
+                .padding(.trailing)
         }
+//        VStack {
+//            PageViewController(pages: pages, currentPage: $currentPage)
+//            Text("Current Page: \(currentPage)")
+//        }
     }
 }
 
